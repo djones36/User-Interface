@@ -67,24 +67,31 @@ h1, h2, h3, h4, h5 {
 *{
 	border: 1px solid red !important;
 }
-header{
+nav{
 	display:inline-block;
+	width:900px;
+	height: 20px;
 }
 nav a{
 	text-decoration: none;
 	color: black;
 }
-
-.top-content{
+header img{
 	display: inline-block;
-	margin: 00px;
+	padding-left: 60px;
+	position: absolute;
+	right: 0;
 }
 
 body{
-	width: 800px;
+	width: 900px;
 	display: inline-block;
+	margin: 50px;
+	position: absolute;
 }
-
+.home{
+	display:inline-block;
+}
 button{
 	color:black;
 	background: white;
@@ -93,13 +100,30 @@ button{
 	padding: 10px 30px 10px 30px;
 	margin: 20px auto;
 	width: 140px;
-	text-align: center
+	text-align: center;
 }
+.features{
+	width: 50%;
 
-.product{
 	display: inline-block;
 }
+.about{
+	width: 50%;
 
+	display: inline-block;
+}
+.product{
+	display: inline-block;
+	width: 30%;
+}
+.services{
+	display: inline-block;
+	width: 30%;
+}
+.vision{
+	display: inline-block;
+	width: 30%;
+}
 .middle-img{
 	display: inline-block;
 }
