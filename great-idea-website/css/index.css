@@ -115,12 +115,12 @@ button{
 }
 .features{
 	width: 50%;
-
+	margin: 10px;
 	display: inline-block;
 }
 .about{
 	width: 50%;
-
+	margin: 10px;
 	display: inline-block;
 }
 .top-content{
@@ -130,10 +130,13 @@ button{
 .product{
 	display: inline-block;
 	width: 30%;
+	margin: 10px;
 }
 .services{
 	display: inline-block;
 	width: 30%;
+	margin-left: 10px;
+	
 }
 .vision{
 	display: inline-block;
